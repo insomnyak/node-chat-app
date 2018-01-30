@@ -1,7 +1,6 @@
 {
   "name": "chat-app",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "node server/server.js",
@@ -16,5 +15,19 @@
   "dependencies": {
     "express": "^4.16.2",
     "socket.io": "^2.0.4"
-  }
+  },
+  "devDependencies": {
+    "expect": "^22.1.0",
+    "mocha": "^5.0.0",
+    "nodemon": "^1.14.11"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/insomnyak/node-chat-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/insomnyak/node-chat-app/issues"
+  },
+  "homepage": "https://github.com/insomnyak/node-chat-app#readme",
+  "description": ""
 }
